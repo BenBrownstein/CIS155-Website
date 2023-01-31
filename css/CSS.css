@@ -1,0 +1,31 @@
+h1
+{
+    color: #276624;
+}
+
+main p
+{
+    font-size: 110%;
+}
+
+p, li
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p:first-child
+{
+    color: #425c40;
+    font-weight: 700;
+}
+
+p.description
+{
+    font-weight: 700;
+    color: #375157;
+}
+
+p.description::first-letter
+{
+    font-size: 120%;
+}
