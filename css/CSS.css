@@ -1,3 +1,8 @@
+body
+{
+    background-image: linear-gradient(#74a8fc, #1f2f4a);
+}
+
 h1
 {
     color: #276624;
@@ -5,7 +10,7 @@ h1
 
 main p
 {
-    font-size: 110%;
+    font-size: 120%;
 }
 
 p, li
@@ -15,17 +20,45 @@ p, li
 
 p:first-child
 {
-    color: #425c40;
+    color: #3a5239;
     font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 p.description
 {
     font-weight: 700;
-    color: #375157;
+    color: #1e6d1e;
 }
 
 p.description::first-letter
 {
     font-size: 120%;
 }
+
+
+img
+{
+    border: 6px solid #305c26;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+p.title
+{
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 130%;
+}
+
+li 
+{
+    font-size: 120%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
+
