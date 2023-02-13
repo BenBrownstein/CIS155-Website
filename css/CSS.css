@@ -1,11 +1,43 @@
+/* nav menu section*/
+#nav_menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li 
+{
+	float: left;
+}
+#nav_menu ul li a
+{
+	display: block;
+	width: 629px;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #178735;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu ul li a.current 
+{
+	color: yellow;
+}
+/* body section*/
 body
 {
+    clear: both;
     background-image: linear-gradient(#74a8fc, #1f2f4a);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
+/* rest of css updated from past modules to work and look better all in main*/
 h1
 {
-    color: #276624;
+    color: #0f4d1f;
 }
 
 main p
@@ -13,14 +45,9 @@ main p
     font-size: 120%;
 }
 
-p, li
-{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 p:first-child
 {
-    color: #3a5239;
+    color: #0f4d1f;
     font-weight: 700;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -29,7 +56,7 @@ p:first-child
 p.description
 {
     font-weight: 700;
-    color: #1e6d1e;
+    color: #178735;
 }
 
 p.description::first-letter
@@ -61,4 +88,5 @@ li
     margin-top: 0;
     margin-bottom: 0.25em;
 }
+
 
