@@ -1,0 +1,5 @@
+ The return to top link on the home page is a bit challenging to read
+ The text you have towards the bottom of the screen, you choose a lighter text color
+
+ Based on the feedback I got I changed around the CSS for my home page to make bottom section more visable the footer was hard to see as well as the links I did so by changing around the colors for those parts.
+ I had to add a class to the footer as the color did not change without it.

@@ -95,4 +95,13 @@ li
     margin-bottom: 0.25em;
 }
 
+p.copy
+{
+    color: #178735;
+}
 
+a:visited
+{
+    color: #7d7a48;
+
+}
