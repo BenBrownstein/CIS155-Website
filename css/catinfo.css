@@ -1,7 +1,7 @@
 /* nav menu section*/
 #nav_menu ul
 {
-    display: flex;
+    	display: flex;
 	flex-basis: 100%;
 	justify-content: space-evenly;
 	list-style: none;
@@ -11,7 +11,7 @@
 }
 #nav_menu ul li 
 {
-    flex-basis: 33%;
+    	flex-basis: 33%;
 }
 #nav_menu ul li a
 {
@@ -29,61 +29,59 @@
 }
 li 
 {
-    font-size: 120%;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0.25em;
+    	font-size: 120%;
+    	padding-top: 0;
+    	margin-top: 0;
+    	margin-bottom: 0.25em;
 }
 
 /* body section*/
 body
 {
-    clear: both;
-    background-color: #74a8fc;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 1900px;
-    width: 98%;
-
+    	clear: both;
+    	background-color: #74a8fc;
+	font-family: Arial, Helvetica, sans-serif;
+    	max-width: 1900px;
+    	width: 98%;
 }
 
 /*main section */
 section 
 {
-    float: right;
-    width: 66%;
+    	float: right;
+    	width: 66%;
 }
 h1
 {
-    color: #0f4d1f;
+    	color: #0f4d1f;
 }
-
 section p
 {
-    font-size: 150%;
+    	font-size: 150%;
 }
 
 /* aside section*/
 aside
 {
 	color: #0f4d1f;
-    float: left;
-    width: 33%;
+    	float: left;
+    	width: 33%;
 }
 
 /* image section*/
 img
 {
-    border: 6px solid #305c26;
-    padding-top: 0;
-    margin-top: 0;
-    max-width: 40%;
+    	border: 6px solid #305c26;
+    	padding-top: 0;
+    	margin-top: 0;
+    	max-width: 40%;
 	min-width: 187px;
 }
 
 /* media section */
 @media only screen and (max-width: 560px) {
-    body { font-size: 90%; }
-    section {
+    	body { font-size: 90%; }
+    	section {
 		float: none;
 		width: 95%;
 	}
